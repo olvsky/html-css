@@ -1,0 +1,101 @@
+body {
+    background-image: url("https://cdn1.imggmi.com/uploads/2019/6/22/a89323c14710ef42e34f107bade0a98c-full.png");
+  background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0px 70px;
+    
+}
+
+nav {
+    text-align: right;
+  border: 3px solid transparent;
+  
+}
+
+nav a {
+    float: left;
+}
+/*tutaj robimy elemnty nav bara*/
+nav li a {
+    color: #2F2E41;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: medium;
+    font-weight:;
+    margin: 0 25px;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+}
+
+nav li a:hover {
+    border-bottom: 3px solid #FF3800;
+    transition: 500ms;
+}
+
+.menuarea li {
+    display: inline-block;
+}
+.all {
+  display: flex;
+  align-content: space-between;
+}
+.main {  
+  display: inline-block;
+  }
+.text {
+  height: 237px;
+      font-size: 46px;
+      line-height: 60px;
+      font-family: 'Montserrat', sans-serif;
+      margin: 148px 0 25px 0;
+      font-weight: 600;
+}
+.btn {
+  display: flex;
+}
+button {
+    height: 50px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 25px 25px 50px 0;
+    border-radius: 15px;
+    align-content: center;
+    font-weight: 600;
+}
+
+.contact {
+    color: #FFFFFF;
+    background-color: #2F2E41;
+    border: 3px solid #2F2E41;
+    font-weight: 500;
+}
+
+.more {
+    color: #2F2E41;
+    background-color: #FFFFFF;
+    border: 3px solid #2F2E41;
+    font-weight: 600;
+}
+
+.img {
+    float: right;
+    text-align: right;
+    margin: 15px;
+}
+
+.contact:hover {
+  cursor: pointer;
+  background-color: #FF3800;
+  border-color: transparent;
+}
+.more:hover {
+  cursor: pointer;
+  color: #FF3800;
+  border-color: #FF3800;
+}
+
+button:focus {
+  outline:none
+}
